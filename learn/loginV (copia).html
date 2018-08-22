@@ -5,15 +5,20 @@
     <title>Login |CódigoMasters|</title>
     <link rel="stylesheet" href="css/estiloss.css">
 </head>
-
+<body>
+  
     <div class="contenedor-form">
         <div class="toggle">
             <span> Registrate</span>
         </div>
 
         <div class="formulario">
-            <h2>Bienvenida</h2>
-            <h3>Gracias por unirte a nuestra comunidad</h3>
+            <h2>Iniciar Sesión</h2>
+            <form action="#">
+                <input type="text" placeholder="Usuario" required>
+                <input type="password" placeholder="Contraseña" required>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
         </div>
 
         <div class="formulario">
@@ -23,13 +28,11 @@
 
                 <input type="password" placeholder="Contraseña" required>
 
-                <input type="text" placeholder="Nombre de la institución " required>
+                <input type="text" placeholder="Nombres" required>
 
-                <input type="text" placeholder="Nombre del contacto" required>
+                <input type="text" placeholder="Apelidos" required>
 
-                <input type="text" placeholder="Tema de Interes" required>
-
-                <input type="text" placeholder="Dirección" required>
+                <input type="text" placeholder="Nivel Académico" required>
 
                 <input type="email" placeholder="Correo Electronico" required>
 
@@ -39,7 +42,7 @@
             </form>
         </div>
         <div class="reset-password">
-            <a href="#"></a>
+            <a href="#">Olvide mi Contraseña?</a>
         </div>
     </div>
     <script src="js/jquery-11.js"></script>
